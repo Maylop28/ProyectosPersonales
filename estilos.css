@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Dancing+Script:wght@700&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+
+#texto1{
+  font-family: "Cinzel";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#texto2{
+  font-family: "Cinzel";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#texto3{
+  font-family: "Roboto Mono: Ital";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+#titulo{
+  font-family: "Dancing Script";
+  font-weight: 700;
+  font-size: 48px;
+}
+
+header{
+  background-color: black;
+  font-style: italic;
+}
+
+#carrusel{
+  position: relative;
+  bottom: 23px;
+}
+
+.navbar-brand {
+    margin-right: 0;
+
+  }
+  .navbar-brand img {
+    width: 80px;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar-brand img {
+      width: 100px;
+    }
+    .navbar .container-fluid {
+      flex-direction: column;
+    }
+    .navbar .navbar-nav .nav-item {
+      padding: 0.5em 1em;
+    }
+    .navbar-nav {
+      border-bottom: 2px solid #fff;
+    }
+
+   
+}
+.photo-gallery {
+  color:#313437;
+  background-color:#fff;
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+#acercaImg{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#acercaDe{
+  background-color: #E6DBD3;
+  
+}
+
+
+#logo{
+  background-color: white;
+  position: fixed;
+  height: 200px;
+  width: 200px;
+ 
+}
+
+footer{
+
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+#fotomedio{
+  position: relative;
+  width: 100%;
+  height: auto;
+  
+}
+
+#medio{
+  text-align: center;
+  color: black;
+  background-color: #E6DBD3;
+  position: relative;
+  bottom:  47px;
+    
+  }
+
+ #listafooter{
+  color: white;
+  line-height: 3;
+  list-style-type: none;
+  
+ }
+
+ #linkfooter{
+  text-decoration: none;
+  color: white;
+ }
+
+#icono{
+  margin-top: 40px;
+  position: relative;
+  float: left;
+  padding: 25px;
+}
+
+#input{
+  
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #E6DBD3;
+    
+  
+}
+
+hr{
+  height: 1px;
+  background-color: black;
+}
